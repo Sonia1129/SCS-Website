@@ -544,8 +544,8 @@ section {
 .about .image {
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
+    background-size: 100%;
+    min-height: 400px;
 }
 
 @media (max-width: 991px) {
@@ -553,7 +553,7 @@ section {
         padding-left: 0;
     }
     .about .image {
-        text-align: center;
+        text-align: left;
     }
     .about .image img {
         max-width: 80%;
@@ -643,7 +643,8 @@ section {
     transition: 0.3s;
 }
 
-.features .card-text {
+.features .card-text,
+ul {
     position: relative;
     z-index: 2;
     color: #5e5e5e;
