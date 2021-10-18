@@ -671,7 +671,7 @@ ul {
 --------------------------------------------------------------*/
 
 .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+    background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.8)), url("https://images.pexels.com/photos/3197978/pexels-photo-3197978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") fixed center center;
     background-size: cover;
     padding: 60px 0;
 }
